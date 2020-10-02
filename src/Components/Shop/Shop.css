@@ -1,0 +1,29 @@
+.shop-container{
+    display: flex;
+    padding-top: 20px;
+}
+
+.product-container{
+    flex: 70%;
+    padding-left: 50px;
+    border-right: 1px solid lightgray;
+}
+
+.cart-container{
+    flex: 30%;
+    padding-left: 20px;
+}
+
+.product{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+}
+.product h5{
+    color: blue;
+}
+
+.w-btn{
+    width: 150px;
+}
